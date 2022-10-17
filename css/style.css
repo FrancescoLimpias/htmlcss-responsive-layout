@@ -23,6 +23,11 @@ body{
     background-color: #9792e4;
 }
 
+.pager > section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 
 /* HEADER PAGER */
 .pager:first-of-type{
@@ -92,3 +97,33 @@ body{
     width: 50%;
     height: fit-content;
 }
+
+
+/* STRATEGIC PAGER */
+#sct-strategic{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+#sct-strategic > div{
+    min-width: 300px;
+}
+
+#sct-strategic > div:first-child{
+    flex: 1 0 50%;
+
+    color: white;
+}
+#sct-strategic > div:first-child img{
+    margin-bottom: 6em;
+}
+
+#sct-strategic > div:last-child{
+    flex: 1 0 40%;
+    height: fit-content;
+    align-self: flex-end;
+
+    background-color: white;
+    border-radius: 25px;
+}
+
