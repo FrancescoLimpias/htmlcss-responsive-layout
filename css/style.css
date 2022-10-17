@@ -169,6 +169,38 @@ body{
 
 
 
+/* BENEFITS PAGER */
+#sct-benefits h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 2em;
+}
+#sct-benefits > div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.benefit{
+    flex: 1 0 31%;
+    min-width: 200px;
+    
+    padding: 1em;
+
+    background-color: white;
+    border-radius: 20px;
+}
+.benefit span{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #9792e4;
+}
+.benefit h3{
+    font-size: large;
+    color: #9792e4;
+}
+
+
 
 
 /* FOOTER PAGER */
