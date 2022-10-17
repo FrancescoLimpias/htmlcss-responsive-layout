@@ -241,6 +241,20 @@ body{
 
 
 
+/* PRICING PAGER */
+#sct-pricing{
+    text-align: center;
+    color:white;
+}
+#sct-pricing > *{
+    margin-bottom: 1em;
+}
+
+#sct-pricing strong{
+    color: #fdc15f;
+    font-size: 6em;
+}
+
 /* FOOTER PAGER */
 .pager:last-of-type{
     background-color: #333333;
