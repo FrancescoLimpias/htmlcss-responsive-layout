@@ -14,3 +14,38 @@ body{
 
     font-weight: 600;
 }
+
+/* 
+*   Every other pager except for first and last
+*   has violet background
+*/
+.pager:nth-child(2n+3):not(:last-of-type){
+    background-color: #9792e4;
+}
+
+/* HEADER PAGER */
+.pager:first-of-type{
+    background-color: #0084fd;
+}
+#site-header{
+    height: 50px;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#site-header > ul{
+    display: flex;
+    justify-content: space-between;
+}
+#site-header li{
+    margin-left: 1em;
+}
+
+#site-header > button{
+    display: none;
+}
+

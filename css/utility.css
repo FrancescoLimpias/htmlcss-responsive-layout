@@ -24,7 +24,7 @@
 }
 .pager > *{
     margin: 0 auto;
-    padding: auto 5px;
+    padding: 0 10px;
 
     max-width: 1200px;
 }
