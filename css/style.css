@@ -202,6 +202,44 @@ body{
 
 
 
+/* ABOUT US PAGER */
+#sct-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+#sct-about div:first-child{
+    flex: 1 0 65%
+}
+#sct-about h2{
+    color: #9792e4;
+}
+
+.citation{
+    flex: 1 0 25%;
+    min-width: 200px;
+    color: #9792e4;
+}
+
+.citation > div{
+    position: relative;
+    overflow: hidden;
+}
+.citation img{
+    border-radius: 50%;
+}
+.citation img+i{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    font-weight: 900;
+    font-size: 300%;
+}
+
+
 
 /* FOOTER PAGER */
 .pager:last-of-type{
