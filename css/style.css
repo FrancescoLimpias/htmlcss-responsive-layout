@@ -106,7 +106,7 @@ body{
     gap: 2em;
 }
 #sct-strategic > div{
-    min-width: 300px;
+    min-width: 200px;
 }
 
 #sct-strategic > div:first-child{
@@ -125,5 +125,43 @@ body{
 
     background-color: white;
     border-radius: 25px;
+}
+
+
+/* TESTIMONIALS PAGER */
+#sct-testimonials{
+    text-align: center;
+}
+#sct-testimonials h2{
+    color: #9792e4;
+}
+
+.testim{
+    padding: 2em;
+
+    margin-bottom: 1em;
+    border-radius: 30px;
+
+    background-color: #9792e4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+
+}
+.testim img{
+    flex: 0 0 200px;
+    min-width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testim > div{
+    flex: 0 1 70%;
+
+    min-width: 200px;
+    text-align: left;
 }
 
