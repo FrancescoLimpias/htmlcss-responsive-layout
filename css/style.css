@@ -5,14 +5,30 @@ body{
 }
 
 /* COMMON */
-.button{
-    padding: 6px 0.6em;
-    border-radius: 1px;
-
-    text-align: center;
-    text-decoration: none;
-
-    font-weight: 600;
+.button.back-white{
+    background-color: white;
+}
+.button.back-blue{
+    background-color: #0084fd;
+}
+.button.back-violet{
+    background-color: #9792e4;
+}
+.button.col-black{
+    color: black;
+}
+.button.col-violet{
+    color: #9792e4;
+}
+.button.col-white{
+    color: white;
+}
+.button.wide{
+    padding: 8px 3em;
+}
+.button.icon{
+    padding: .3em .66em; 
+    border-radius: 50%;
 }
 
 /* 
@@ -34,9 +50,11 @@ body{
     background-color: #0084fd;
 }
 #site-header{
-    height: 50px;
+    height: 65px;
 
     color: white;
+    font-size: large;
+    font-weight: 500;
 
     display: flex;
     justify-content: space-between;
@@ -53,6 +71,11 @@ body{
 
 #site-header > button{
     display: none;
+    font-size: x-large;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -77,9 +100,26 @@ body{
     padding: 3% 2%;
     border-radius: 20px;
 }
+.feature .text{
+    text-align: center;
+}
+.feature .text > *{
+    margin-bottom: 1rem;
+}
+.feature .text > i{
+    color: #0084fd;
+    font-size: 400%;
+}
 .feature h3{
     color: #0084fd;
     font-size: medium;
+    font-weight: 600;
+}
+.feature p{
+    margin-bottom: 3em !important;
+}
+.feature a{
+    letter-spacing: 0.2em;
 }
 
 .feature.large{
@@ -93,11 +133,14 @@ body{
 }
 .feature.large .text{
     flex: 1 0 50%;
+    text-align: left;
+    margin-bottom: 2em;
 }
 .feature.large img{
     min-width: 200px;
     width: 50%;
     height: fit-content;
+    align-self: flex-end;
 }
 
 
@@ -125,14 +168,25 @@ body{
     height: fit-content;
     align-self: flex-end;
 
+    padding: 3%;
+    text-align: center;
+
     background-color: white;
     border-radius: 25px;
+}
+
+#sct-strategic > div:last-child > *{
+    margin-bottom: 1rem;
 }
 
 
 /* TESTIMONIALS PAGER */
 #sct-testimonials{
     text-align: center;
+}
+#sct-testimonials > *{
+    display: block;
+    margin-bottom: 1rem;
 }
 #sct-testimonials h2{
     color: #9792e4;
@@ -145,6 +199,8 @@ body{
     border-radius: 30px;
 
     background-color: #9792e4;
+    color: white;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -166,6 +222,24 @@ body{
     min-width: 200px;
     text-align: left;
 }
+.testim p{
+    line-height: 2em;
+}
+.testim p:before,
+.testim p:after{
+    font-size: x-large;
+    font-weight: 600;
+}
+.testim p:before{
+    content: "\201C";
+}
+.testim p::after{
+    content: "\201D";
+}
+
+.testim span{
+    font-weight: 600;
+}
 
 
 
@@ -174,6 +248,7 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 2em;
+    font-weight: 600;
 }
 #sct-benefits > div{
     display: flex;
@@ -185,10 +260,13 @@ body{
     flex: 1 0 31%;
     min-width: 200px;
     
-    padding: 1em;
+    padding: 1.5em;
 
     background-color: white;
     border-radius: 20px;
+}
+.benefit > *{
+    margin-bottom: 1rem;
 }
 .benefit span{
     font-size: 5rem;
@@ -206,26 +284,31 @@ body{
 #sct-about{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: space-around; */
     gap: 2em;
+}
+#sct-about > div > *{
+    margin-bottom: 1.2rem;
 }
 
 #sct-about div:first-child{
-    flex: 1 0 65%
+    flex: 1 1 75%
 }
 #sct-about h2{
     color: #9792e4;
 }
 
 .citation{
-    flex: 1 0 25%;
+    flex: 1 0 15%;
     min-width: 200px;
+    max-width: 250px;
     color: #9792e4;
 }
 
 .citation > div{
     position: relative;
     overflow: hidden;
+    max-width: 200px;
 }
 .citation img{
     border-radius: 50%;
@@ -238,6 +321,9 @@ body{
     font-weight: 900;
     font-size: 300%;
 }
+.citation a{
+    font-size: small;
+}
 
 
 
@@ -247,12 +333,14 @@ body{
     color:white;
 }
 #sct-pricing > *{
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
-
 #sct-pricing strong{
     color: #fdc15f;
     font-size: 6em;
+}
+#sct-pricing a{
+    display: inline-block;
 }
 
 /* FOOTER PAGER */

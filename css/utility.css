@@ -21,6 +21,16 @@ img{
     max-width: 100%;
 }
 
+.button{
+    padding: 6px 1em;
+    border-radius: 20px;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
 /* COMMON */
 
 .pager{
