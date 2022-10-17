@@ -1,0 +1,31 @@
+/* 
+    Set of utility ruleset of css,
+    may be useful.
+
+    F.L.
+*/
+
+/*  Responsive Page ruleset
+
+    The following ruleset sets the page
+    to use flexbox on its main components.
+    This helps improving overall page responsiveness
+
+*/
+.resp-parent {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.resp-parent:before,
+.resp-parent:after {
+    flex: 0 1 15%;
+    content: "";
+}
+
+.resp-child {
+    flex: 0 0 70%;
+    min-width: 320px;
+}
