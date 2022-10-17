@@ -1,49 +1,10 @@
 /* GENERAL SETUP  */
-*,
-*::after,
-*::before
-{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-
-    /* Testing Mode  */
-    /* border: 1px dashed orange; */
-}
-
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: white;
 }
 
 /* COMMON */
-.pager{
-    width: 100%;
-}
-.pager > *{
-    margin: 0 auto;
-    padding: auto 5px;
-
-    max-width: 1200px;
-}
-.pager > .narrow{
-    padding: auto 10%;
-}
-.pager > .xs.narrow{
-    padding: auto 15%;
-}
-
-
-.link-list{
-    list-style: none;
-    padding-inline-start: 0;
-}
-.link-list a{
-    text-decoration: none;
-    color: currentColor;
-}
-
-
 .button{
     padding: 6px 0.6em;
     border-radius: 1px;

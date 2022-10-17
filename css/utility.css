@@ -5,27 +5,42 @@
     F.L.
 */
 
-/*  Responsive Page ruleset
+*,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 
-    The following ruleset sets the page
-    to use flexbox on its main components.
-    This helps improving overall page responsiveness
+    /* Testing Mode  */
+    /* border: 1px dashed orange; */
+}
 
-*/
-.resp-parent {
-    display: flex;
-    justify-content: center;
+/* COMMON */
 
+.pager{
     width: 100%;
 }
+.pager > *{
+    margin: 0 auto;
+    padding: auto 5px;
 
-.resp-parent:before,
-.resp-parent:after {
-    flex: 0 1 15%;
-    content: "";
+    max-width: 1200px;
+}
+.pager > .narrow{
+    padding: auto 10%;
+}
+.pager > .xs.narrow{
+    padding: auto 15%;
 }
 
-.resp-child {
-    flex: 0 0 70%;
-    min-width: 320px;
+
+.link-list{
+    list-style: none;
+    padding-inline-start: 0;
+}
+.link-list a{
+    text-decoration: none;
+    color: currentColor;
 }
