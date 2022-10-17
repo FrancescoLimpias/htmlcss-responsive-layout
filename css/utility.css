@@ -34,10 +34,14 @@ img{
     max-width: 1200px;
 }
 .pager > .narrow{
+    padding-right: 4%;
+    padding-left: 4%;
+}
+.pager > .xs.narrow{
     padding-right: 7%;
     padding-left: 7%;
 }
-.pager > .xs.narrow{
+.pager > .xxs.narrow{
     padding-right: 12%;
     padding-left: 12%;
 }

@@ -74,8 +74,8 @@ body{
     font-size: small;
 
     background-color: #b5ddff;
-    padding: 15px 10px 0;
-    border-radius: 10px;
+    padding: 3% 2%;
+    border-radius: 20px;
 }
 .feature h3{
     color: #0084fd;
@@ -85,6 +85,8 @@ body{
 .feature.large{
     position: relative;
     flex: 1 0 65.5%;
+
+    padding-bottom: 0;
 
     display: flex;
     flex-wrap: wrap;
@@ -165,3 +167,27 @@ body{
     text-align: left;
 }
 
+
+
+
+
+/* FOOTER PAGER */
+.pager:last-of-type{
+    background-color: #333333;
+}
+#site-footer{
+    padding-top: 2em;
+
+    color: white;
+    text-align: center;
+
+    padding-bottom: 2em;
+}
+
+#site-footer > p{
+    margin-bottom: 3em;
+}
+
+#site-footer a{
+    color: #817ebe;
+}
