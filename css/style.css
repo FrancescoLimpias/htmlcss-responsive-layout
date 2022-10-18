@@ -103,7 +103,7 @@ body{
 .feature .text{
     text-align: center;
 }
-.feature .text > *{
+.feature .text > *:not(:last-child){
     margin-bottom: 1rem;
 }
 .feature .text > i{
@@ -114,9 +114,6 @@ body{
     color: #0084fd;
     font-size: medium;
     font-weight: 600;
-}
-.feature p{
-    margin-bottom: 3em !important;
 }
 .feature a{
     letter-spacing: 0.2em;
@@ -135,6 +132,9 @@ body{
     flex: 1 0 50%;
     text-align: left;
     margin-bottom: 2em;
+}
+.feature.large p{
+    margin-bottom: 3em !important;
 }
 .feature.large img{
     min-width: 200px;
