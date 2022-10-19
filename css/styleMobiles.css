@@ -1,6 +1,25 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
-    .feature.large .text{
+    /* COMMON */
+    .pager>.narrow {
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .pager>.xs.narrow {
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .pager>.xxs.narrow {
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+
+
+    /* FEATURE SECTION */
+    #sct-feature{
+        flex-direction: column;
+    }
+    .feature.large .text {
         text-align: center;
     }
 }

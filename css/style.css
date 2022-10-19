@@ -90,6 +90,11 @@ a:not(.button):hover {
     align-items: center;
 }
 
+#site-header > a{
+    display: flex;
+    align-items: center;
+}
+
 #site-header>ul {
     display: flex;
     justify-content: space-between;
@@ -263,7 +268,7 @@ a:not(.button):hover {
 }
 
 .testim>div {
-    flex: 0 1 70%;
+    flex: 0 1 60%;
 
     min-width: 200px;
     text-align: left;
@@ -347,7 +352,7 @@ a:not(.button):hover {
 }
 
 #sct-about div:first-child {
-    flex: 1 1 75%
+    flex: 1 1 70%
 }
 
 #sct-about h2 {
@@ -356,7 +361,7 @@ a:not(.button):hover {
 
 .citation {
     flex: 1 0 15%;
-    min-width: 200px;
+    min-width: 150px;
     max-width: 250px;
     color: #9792e4;
 }

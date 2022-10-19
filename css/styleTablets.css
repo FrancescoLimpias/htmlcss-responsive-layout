@@ -8,4 +8,14 @@
     #site-header > button{
         display: inline;;
     }
+
+    /* STRATEGIC PAGER */
+    #sct-strategic{
+        flex-direction: column;
+    }
+
+    /* BENEFITS PAGER */
+    .benefit{
+        flex: 1 0 48%;
+    }
 }

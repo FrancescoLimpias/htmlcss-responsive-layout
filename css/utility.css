@@ -38,18 +38,18 @@ img{
 }
 .pager > *{
     margin: 0 auto;
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
 
     max-width: 1200px;
 }
 .pager > .narrow{
-    padding-right: 4%;
-    padding-left: 4%;
+    padding-right: 6%;
+    padding-left: 6%;
 }
 .pager > .xs.narrow{
-    padding-right: 7%;
-    padding-left: 7%;
+    padding-right: 8%;
+    padding-left: 8%;
 }
 .pager > .xxs.narrow{
     padding-right: 12%;
